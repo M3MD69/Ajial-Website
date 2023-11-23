@@ -5,17 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download Latest App Version</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
 </head>
 <body>
-<script>
-    window.onload = function () {
-        const link = document.createElement('a');
-        link.href = 'ajial.apk';
-        link.download = 'ajial.apk';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
-</script>
+<button id="downloadLatestVersionBtn">Download Latest Version</button>
 </body>
 </html>
