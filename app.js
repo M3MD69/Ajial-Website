@@ -2,8 +2,8 @@ document.getElementById('downloadLatestVersionBtn').addEventListener('click', do
 
 function downloadLatestAppVersion() {
     const link = document.createElement('a');
-    link.href = 'ajial.apk';
-    link.download = 'ajial.apk';
+    link.href = 'Ajial.apk';
+    link.download = 'Ajial.apk';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
