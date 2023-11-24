@@ -1,9 +1,29 @@
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    font-family: Arial, serif;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+}
+
+
+img {
+    border: orange 0.5rem solid;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    zoom: 0.5;
+    pointer-events: none;
 }
 
 #downloadLatestVersionBtn {
